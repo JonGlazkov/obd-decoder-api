@@ -64,7 +64,8 @@ If no valid DTCs are present:
 ## Setup
 
 1. Clone the repository or unzip the archive
-2. Install dependencies:
+2. Ensure that your Node.js version is 20 or higher.
+3. Install dependencies:
 
 Using npm:
 
@@ -129,3 +130,4 @@ pnpm dev
 - `src/` — TypeScript source code
 - `package.json` — dependencies and scripts
 - `README.md` — project documentation
+  gt
