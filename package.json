@@ -9,8 +9,7 @@
   "scripts": {
     "build": "pnpm install && tsc",
     "dev": "tsx watch src/http/index.ts",
-    "start": "node build/http/index.js",
-    "test": "test"
+    "start": "node build/http/index.js"
   },
   "author": "Jon Ventura",
   "license": "ISC",

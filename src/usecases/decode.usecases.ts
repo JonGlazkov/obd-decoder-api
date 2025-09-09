@@ -1,7 +1,7 @@
 import {
   DecodeResponse,
   IDecodeUseCases,
-} from "@src/interfaces/decode.interface";
+} from "../interfaces/decode.interface";
 
 // DTC code prefixes according to OBD-II
 const DTC_PREFIXES = ["P", "C", "B", "U"];

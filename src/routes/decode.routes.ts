@@ -1,6 +1,6 @@
-import { DecodeRequestBody } from "@src/interfaces/decode.interface";
-import { DecodeUseCases } from "@src/usecases/decode.usecases";
 import { FastifyInstance } from "fastify";
+import { DecodeRequestBody } from "../interfaces/decode.interface";
+import { DecodeUseCases } from "../usecases/decode.usecases";
 
 export async function DecodeRoutes(fastify: FastifyInstance) {
   const decodeUseCases = new DecodeUseCases();
